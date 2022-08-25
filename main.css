@@ -1,16 +1,20 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    margin: 0;
 }
 
 h1 {
     margin-bottom: 3vw;
+    margin-top: 1em;
 }
 
 form {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
     justify-content: center;
     gap: 2vw;
 }
@@ -20,11 +24,20 @@ h2 {
     font-size: 2vw;
 }
 
+input {
+    padding: 0.5vw;
+    border-radius: 0.4em;
+}
+
 .timerStyle {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 1em;
+}
+
+p {
     font-size: 4vw;
 }
 
@@ -34,11 +47,18 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 5vw;
+    margin-top: 2em;
 }
 
 button {
-    width: 15vw;
-    padding: 1vw;
+    width: 13vw;
+    padding: 0.7vw;
     border-radius: 0.6em;
     font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    form {
+        flex-direction: column;
+    }
 }
