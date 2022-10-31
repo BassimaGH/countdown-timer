@@ -6,7 +6,7 @@ let hTimerValue = document.getElementById("timerH");
 let mTimerValue = document.getElementById("timerM");
 let sTimerValue = document.getElementById("timerS");
 
-let seconds = 0;
+let seconds = 60;
 let minutes = 0;
 let hours = 0;
 let start = 0;
